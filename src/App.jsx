@@ -2,14 +2,16 @@
 import "./App.css";
 import CustomForm from "./Containers/CustomForm";
 import FormHook from "./Containers/FormHook";
+import TrafficLights from "./MachineCoding/TrafficLights";
 
 function App() {
   return (
     <>
-      <FormHook />
+      <TrafficLights />
+      {/* <FormHook />
       <hr></hr>
       <br />
-      <CustomForm />
+      <CustomForm /> */}
     </>
   );
 }
