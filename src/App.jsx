@@ -3,11 +3,13 @@ import "./App.css";
 import CustomForm from "./Containers/CustomForm";
 import FormHook from "./Containers/FormHook";
 import TrafficLights from "./MachineCoding/TrafficLights";
+import TodoList from "./Containers/TodoList";
 
 function App() {
   return (
     <>
-      <TrafficLights />
+      <TodoList />
+      {/* <TrafficLights /> */}
       {/* <FormHook />
       <hr></hr>
       <br />
